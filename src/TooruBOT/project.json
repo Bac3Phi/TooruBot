@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Discord.Net": "1.0.2",
+    "Discord.Net.Commands": "1.0.2",
+    "Discord.Net.Core": "1.0.2",
+    "Discord.Net.Rest": "1.0.2",
+    "Discord.Net.Rpc": "1.0.2",
+    "Discord.Net.Webhook": "1.0.2",
+    "GoogleDriveAPI": "1.0.0-*",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+  //"runtimes": {
+  //  "win10-x64": {}
+  //}
+}
