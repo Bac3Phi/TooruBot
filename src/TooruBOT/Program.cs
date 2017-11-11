@@ -40,9 +40,8 @@ namespace TooruBot
             exportLink(listKona, pathKona);
             _client = new DiscordSocketClient();
 
-            await _client.LoginAsync(TokenType.Bot, "MzUzOTM3MzY1NDgxNTUzOTIw.DI29Yw.wPDRhEt5kuMqLrgjAbex99mR0EI");
-            // kaori "MzUwNjMxNTc5MDgyNTU1Mzky.DIhZRQ.V7HvGn2t6T0TkGmlLdXGZI0ANtk");//token here
-            //MzUzOTM3MzY1NDgxNTUzOTIw.DI29Yw.wPDRhEt5kuMqLrgjAbex99mR0EI
+            await _client.LoginAsync(TokenType.Bot, "");
+            
             await _client.StartAsync();
 
             _handler = new CommandHandler(_client, listBoobs, listLoli, listReal, listKona);
